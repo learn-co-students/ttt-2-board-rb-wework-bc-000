@@ -10,7 +10,7 @@ describe "lib/board.rb" do
 
     expect(board).to be_a(Array)
   end
-
+board = {" ", " ", " ", " ", " ", " ", " ", " ", " "}
   it '`board` is an array with 9 elements' do
     board = get_variable_from_file("./lib/board.rb", "board")
 
